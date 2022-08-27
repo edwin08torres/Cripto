@@ -1,0 +1,185 @@
+
+.plans-container__slider {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header .header--title--container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-content: center;
+}
+
+header .header--title--container h1 {
+    font-size: 4.4rem;
+    line-height: 4.4rem;
+    height: 100px;
+}
+
+header .header--title--container p {
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+}
+
+header .header--title--container .header--button {
+    font-size: 2.5rem;
+    width: 350px;
+    height: 60px;
+}
+
+.header--button span {
+    vertical-align: 3px;
+}
+
+.main--exchange-container .backgroundImg {
+    width: 400px;
+    height: 400px;
+}
+
+.main--exchange-container .main-tittle h2 {
+    font-size: 3.8rem;
+}
+
+.main--exchange-container .main-tittle p {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+
+.product-cards__container {
+  min-width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+/* DETALLES */
+.main-product-detail .product-logo {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main-product-detail .product-detail__head h2 {
+    margin-top: 40px;
+    font-size: 3.8rem;
+}
+
+.main-product-detail .product-detail__head p {
+    font-size: 2.6rem;
+}
+
+.product-cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.main-product-detail .product-cards__container .product-detail__card {
+    min-width: 600px;
+    max-width: 700px;
+    height: 180px;
+}
+
+.main-product-detail .product-cards__container .product-detail__card .icon-card {
+    width: 40px;
+    height: 40px;
+    font-size: 4rem;
+}
+
+.main-product-detail .product-cards__container .product-detail__card .product--card__title {
+    font-size: 2.4rem;
+}
+
+.main-product-detail .product-cards__container .product-detail__card .product--card__body {
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+}
+
+.bitcoin-img__container {
+    background-size: auto;
+    height: 70vh;
+}
+
+.main-plans__container .plans--tittle {
+    margin-bottom: 100px;
+}
+
+.main-plans__container .plans--tittle h2 {
+    font-size: 4.4rem;
+}
+
+.main-plans__container .plans--tittle p {
+    font-size: 2.6rem;
+}
+
+.main-plans__container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-plans__container .plans-container__slider {
+    height: 50vh;
+}
+
+.main-plans__container .plans-container__slider 
+.plans-container__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.main-plans__container .plans-container__slider 
+.plans-container__card .recomendado{
+    font-size: 1.8rem;
+    width: 150px;
+}
+
+.plans-container__card .plan-info__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+}
+.plans-container__card .plan-info__container .plan-info__title{
+    font-size: 2.4rem;
+}
+
+.plan-info__container .plan-info__price{
+    font-size: 6.4rem;
+}
+
+.plan-info__container .plan-info__price span{
+    font-size: 2.4rem;
+}
+
+.plan-info__container .plan-info__saving{
+    font-size: 1.7rem;
+    color: #aaa;
+}
+
+.plan-info__container .plan-card__ca {
+    font-size: 1.8rem;
+    width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer .left ul li{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+footer .right img {
+    width: 230px;
+}
